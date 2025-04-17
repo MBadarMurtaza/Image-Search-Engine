@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Image Search Engine</title>
+  </head>
+  <body class="bg-[#39297b] text-white">
+    <h1
+      class="font-semibold mx-auto mt-[100px] mb-[50px] text-center text-[2em]"
+    >
+      image search engine
+    </h1>
+    <form
+      class="w-[90%] max-w-[600px] m-auto h-[80px] bg-[#434989] flex items-center rounded-[8px]"
+    >
+      <input
+        class="flex-1 h-full border-0 outline-0 bg-transparent text-white text-[18px] py-0 px-[30px] placeholder:text-[18px] placeholder:text-white"
+        type="text"
+        id="searchBox"
+        placeholder="Search anything here..."
+      />
+      <button
+        class="py-0 px-[40px] h-full bg-[#ff3929] text-white border-0 outline-0 rounded-tr-[8px] rounded-br-[8px] cursor-pointer"
+      >
+        Search
+      </button>
+    </form>
+    <div id="result"></div>
+    <button class="bg-[#ff3929] text-white border-0 outline-0 py-2.5 px-5 rounded-[4px] mt-2.5 mx-auto mb-[100px] cursor-pointer hidden">Show More</button>
+  </body>
+</html>
